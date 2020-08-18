@@ -1,7 +1,10 @@
 
 def fibonacci(n) :
-    # this is the base
-    if n <=0 :
+    '''
+this function to calculate fibonacci series 
+n= the number that we need to calculate fibonacci seris to it 
+    '''
+if n <=0 :
         return 'plese the number must more than 0'
     elif n == 1 :
         return 0
@@ -12,6 +15,12 @@ def fibonacci(n) :
 
 
 def lucas(n) :
+
+    '''
+    this function to calculate lucas series 
+n= the number that we need to calculate lucas seris to it 
+
+    '''
     if n <=0 :
         return 'plese the number must more than 0'
     elif n == 1 :
@@ -23,7 +32,13 @@ def lucas(n) :
 
 
 def sum_series(n, n2=0 ,n3=1) :
+'''
+    this function to calculate any  series where 
+n= the number that we need to calculate the  seris to it 
+n2 ==> the index number 1 for this series 
+n3 ==> the index number 2 for this series 
 
+'''
     # this is the base
         # if n2 == 0 and n3 == 1 :
     if n <=0 : 
